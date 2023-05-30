@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Limited time quiz game</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Limited time quiz game</h1>
+    <div id="timer" class="timer">60</div>
+    <div id="question" class="question"></div>
+    <ul id="options" class="options">
+      <li class="option"></li>
+      <li class="option"></li>
+      <li class="option"></li>
+      <li class="option"></li>
+    </ul>
+    <div id="answer" class="answer"></div>
+    <div id="score" class="score"></div>
+    <div id="leaderboard" class="leaderboard">
+      <h2>Leaderboard</h2>
+      <ul id="scores" class="scores"></ul>
+      <div class="action-buttons">
+        <div class="restart-btn">
+          <button id="restartBtn">Restart</button>
+        </div>
+        <div class="clear-btn">
+          <button id="clearBtn">Clear</button>
+        </div>
+      </div>
+      
+    </div>
+    <div  class="leaderboard-btn">
+      <button id="leaderboardBtn">View Ranking</button>
+    </div>
+    <div id="nameInput" class="name-input">
+      <form id="nameForm">
+        <label for="nameField">Please enter your name:</label>
+        <input type="text" id="nameField" required>
+        <button type="submit" class="submitBtn">Submit</button>
+      </form>
+    </div>
+  </div>
+  <div class="main-container">
+    <h1>Welcome to the limited time quiz game！</h1>
+    <button class="start-btn" onclick="startGame()">Start</button>
+  </div>  
+  <script src="script.js"></script>
+</body>
+</html>

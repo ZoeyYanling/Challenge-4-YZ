@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: none;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .timer {
+    text-align: right;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .question {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .options {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .option {
+    background-color: #8e44ad;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .option:hover {
+    background-color: #9b59b6;
+  }
+  
+  .answer {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .score {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .leaderboard {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  .leaderboard-btn {
+    /* display: b; */
+    margin-top: 0px;
+    text-align: left;
+  }
+  
+  .name-input {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  .scores {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .scores li {
+    background-color: #ebebeb;
+    color: #333;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .restart-btn,
+  .clear-btn {
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* .restart-btn button,
+  .clear-btn button{
+    background-color: #8e44ad;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  } */
+  .restart-btn button,
+  .clear-btn button,
+  .leaderboard-btn button,
+  .submitBtn {
+    background-color: #0d6fb6;
+    color: #fdfcfc;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .restart-btn button:hover,
+  .clear-btn button:hover,
+  .submitBtn:hover {
+    background-color: #0ea7e4;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .start-btn {
+    background-color: #8e44ad;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+  
+  .start-btn:hover {
+    background-color: #9b59b6;
+  }
+  
+  
+  
